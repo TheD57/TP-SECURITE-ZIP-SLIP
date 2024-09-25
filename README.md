@@ -11,10 +11,10 @@ Pour faire cela vous avez eu une petit idée, après avoir appris qu'il était p
 afin de mettre votre plan à execution vous allez d'abord taper les commandes <strong>Shell</strong> écrite juste en dessous.
 
 ```
-mkdir -p Correction_DS/../../../../tmp/prank
-cp prank.sh /../../../../tmp/prank
+mkdir -p Correction_DS/../.prank/
+cp prank.sh Correction_Ds/../.prank/
 chmod +x
-Correction_DS/../../../../tmp/prank/prank.sh
+Correction_DS/../tmp/prank/prank.sh
 
 zip -r Correction_DS.zip Correction_DS/
 ```
